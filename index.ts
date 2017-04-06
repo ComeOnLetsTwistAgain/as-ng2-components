@@ -1,10 +1,12 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-
+//
+// ─── TOAST COMPONENT ────────────────────────────────────────────────────────────
+//
 import { ToastComponent } from './src/toast/toast.component';
 import { ToastService } from './src/toast/toast.service';
-
+// ────────────────────────────────────────────────────────────────────────────────
 
 
 export * from './src/toast/toast.component';
