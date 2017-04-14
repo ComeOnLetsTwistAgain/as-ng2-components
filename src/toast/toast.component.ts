@@ -7,7 +7,7 @@ declare const require: any;
 @Component({
 	selector: 'toast',
 	template: require('./toast.html'),
-	styles: [require('./toast.css')]
+	styles: [require('./toast.scss')]
 })
 export class ToastComponent implements OnInit {
 

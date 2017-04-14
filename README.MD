@@ -53,8 +53,8 @@ With a few tweaks : Mainly got from [here](https://blog.thoughtram.io/angular/20
 + Added scripts to package.json
 ```json
 "htmlcopy": "copyfiles src/**/*.html dist",
-"lesscopy": "copyfiles src/**/*.css dist",
-"dist": "npm run tsc && npm run htmlcopy && npm run lesscopy"
+"stylecopy": "copyfiles src/**/*.scss dist",
+"dist": "npm run tsc && npm run htmlcopy && npm run stylecopy"
 ```
 + Changed template and styles importation method (in components)
 ```typescript
